@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sortby"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/MenuBtnFilter"
+        app:showAsAction="always|collapseActionView">
+        <!-- movies submenu -->
+        <menu>
+            <group
+                android:id="@+id/menu_sort_group"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/popular_imenu"
+                    android:title="@string/MenuitemPopular" />
+                <item
+                    android:id="@+id/top_rated_imenu"
+                    android:title="@string/MenuitemTopRated" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/MenuBtnSearch"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"/>
+</menu>

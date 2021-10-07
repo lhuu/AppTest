@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">APP Test</string>
+    <string name="button">Button</string>
+
+    <string name="MenuBtnFilter">Filtrar por</string>
+    <string name="MenuBtnSearch">Buscar</string>
+
+    <string name="MenuitemPopular">Más popular</string>
+    <string name="MenuitemTopRated">Más valorado</string>
+
+    <string name="DetailReleaseDate">Fecha de lanzamiento:</string>
+    <string name="DetailRating">Clasificación:</string>
+    <string name="DetailRuntime">Duración:</string>
+    <string name="DetailBudget">Presupuesto:</string>
+    <string name="DetailRevenue">Ingresos:</string>
+    <string name="DetailOverview">Detalles:</string>
+
+
+</resources>
